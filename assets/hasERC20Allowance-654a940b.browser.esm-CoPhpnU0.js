@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/index-CO__PkzL.js","assets/index-Oe1SvVGL.css"])))=>i.map(i=>d[i]);
+import{_,C as c}from"./index-CO__PkzL.js";async function f(e,a,t){const n=e.getProvider(),r=(await _(async()=>{const{default:o}=await import("./index-CO__PkzL.js").then(l=>l.dZ);return{default:o}},__vite__mapDeps([0,1]))).default,s=new c(n,a,r,{},e.storage),d=await e.getSignerAddress(),i=e.address;return(await s.read("allowance",[d,i])).gte(t)}export{f as h};
